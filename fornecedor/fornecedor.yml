@@ -4,8 +4,9 @@ spring:
     username : root
     password : 1234
     driver-class-name : com.mysql.jdbc.Driver
-    
+
   jpa :
-    hibernate :
-      dialect : org.hibernate.dialect.MySQL5Dialect
-      ddl-auto: update 
+    properties : 
+      hibernate :
+        dialect : org.hibernate.dialect.MySQL5Dialect
+        ddl-auto: update
